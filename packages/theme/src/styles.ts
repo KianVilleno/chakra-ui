@@ -4,8 +4,8 @@ const styles: Styles = {
   global: (props) => ({
     body: {
       fontFamily: "body",
-      color: mode("gray.800", "whiteAlpha.900")(props),
-      bg: mode("white", "gray.800")(props),
+      color: "red",
+      bg: "red",
       transitionProperty: "background-color",
       transitionDuration: "normal",
       lineHeight: "base",
